@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Validación de documentos',
     descripcionCurso:
       'La validación de documentos son aquellos instrumentos que permiten verificar el estado de un proceso específico de manera detallada, estos son tomados como punto de referencia para tener una acertada toma de decisiones dentro del proceso que se ejecutará o el sistema que se está diseñando.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -23,209 +23,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Informe de análisis',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Instrumentos de verificación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Trazabilidad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -265,139 +78,162 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Acosta-Hoyos, L. E. (1972). Guía práctica para la investigación y redacción de informes (Vol. 146). Editorial Paidós.',
+      /*link:
+        '',*/
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Ayabaca, L. P., & Bernal, S. M. (2017). Verificación y Validación de Software Software Verification and Validation. Revista Killkana Técnica. Vol, 1(3).',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Bichachi, D. S. (2004). El uso de las listas de chequeo (CHECK-LIST) como herramienta para controlar la calidad de las leyes. Recuperado de:',
+      link: 'https://claudiabernazza.ar/ssgp/html/pdf/check_list.pdf',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Botta, M., de Roig, N. F., & Izaguirre, I. (2002). Tesis, monografías e informes: nuevas normas y técnicas de investigación y redacción. Biblos.',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Dorrego, E. (1994). Modelo para la producción y evaluación formativa de medios instruccionales, aplicado al video y al software. Revista de Tecnología Educativa, 12(3), 313-327.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Espinoza Freire, E. E. (2018). Las variables y su operacionalización en la investigación educativa. Parte I. Conrado, 14, 39-49.',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Espinoza Montes, C. (2010). Metodología de investigación tecnológica.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Hernandez, F., Roldán, M. L., Vegetti, M. M., Gonnet, S. M., & Leone, H. P. (2015). TracEDaaS: Captura y Trazabilidad de Artefactos del Proceso de Diseño.',
+    },
+    {
+      referencia:
+        'López Bartolomé, C. (2014). El desarrollo de <em>software Open Source</em> analizado desde dentro (Bachelor´s thesis).',
+    },
+    {
+      referencia:
+        'Pájaro, D. (2002). La formulación de hipótesis. Cinta de Moebio. Revista de Epistemología de Ciencias Sociales, (15).',
+    },
+    {
+      referencia:
+        'Pereira, B., Ayaach, F., Quintero, H., Granadillo, I., & Bustamante, J. (2012). Métricas de calidad de software. Calidad Del <em>Software</em>.',
+    },
+    {
+      referencia:
+        'Perez Quintero, C. I. (2019). Implementación del modelo Mccall para medir la calidad del software Siplan (Doctoral dissertation).',
+    },
+    {
+      referencia:
+        'Romero Alvarado, W. A. (2018). Los instrumentos de verificación y su incidencia en el control de los procesos productivos de la paletera Armijos.',
+    },
+    {
+      referencia:
+        'Tabares, M. S., Barrera, A. F., Arroyave, J. D., & Pineda, J. D. (2007). Un método para la trazabilidad de requisitos en el proceso unificado de desarrollo. Revista EIA, (8), 69-82.',
+    },
+    {
+      referencia:
+        'Torres, M., Salazar, F. G., & Paz, K. (2019). Métodos de recolección de datos para una investigación.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Capacidad de expansión',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'el grado con que se pueden aumentar el diseño arquitectónico, de datos o procedimental. ',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Complexión',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'el grado con que sé a logrado la implementación total de una función.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Concisión',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'lo compacto que resulta ser el programa en términos de líneas de código.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Consistencia',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'el uso de un diseño uniforme y de técnicas de documentación a través del proyecto de desarrollo del <em>software</em>.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'Eficiencia de ejecución',
+      significado: 'el rendimiento del funcionamiento de un programa.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Estandarización de comunicaciones',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'el nivel de empleo de estándares de interfaces, protocolos y anchos de banda.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Estandarización de datos',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'el empleo de estructuras y tipos de datos estándares a lo largo del programa.',
     },
     {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+      termino: 'Exactitud',
+      significado: 'la exactitud de los cálculos y del control.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Facilidad de auditoría',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'la facilidad con la que se puede justificar el cumplimiento de los estándares.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Formación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'el grado en que el software ayuda a los nuevos usuarios a manejar el sistema.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Generalidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'la extensión de aplicación potencial de los componentes del programa.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Independencia del <em>hardware</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'el grado con que se desacopla el <em>software</em> del <em>hardware</em> donde opera.',
+    },
+    {
+      termino: 'Instrumentación',
+      significado:
+        'el grado con que el programa vigila su propio funcionamiento e identifica los errores que suceden.',
+    },
+    {
+      termino: 'Modularidad',
+      significado: 'la independencia funcional de componentes de programa.',
+    },
+    {
+      termino: 'Operatividad',
+      significado: 'la facilidad de operación de un programa.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'la capacidad de alcanzar una representación del diseño o un componente real del programa hasta los requisitos.',
+    },
+    {
+      termino: 'Tolerancia al error',
+      significado: 'el deterioro causado cuando un programa descubre un error.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Perez Quintero, C. I. (2019). Implementación del modelo Mccall para medir la calidad del <em>software</em> Siplan (Doctoral dissertation',
+      tipo: 'Capítulo de libro',
+      descarga: '/downloads/metricas-desarrollo-software.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Datko, C., & Carllinni, Y. (2014). Derivación de requisitos y construcción de trazabilidad entre artefactos del proceso de desarrollo. In XLIII Jornadas Argentinas de Informática e Investigación Operativa (43JAIIO)-XVII Concurso de Trabajos Estudiantiles (EST)(Buenos Aires, 2014).',
+      tipo: 'PDF',
+      descarga: '/downloads/requisitos.pdf',
     },
   ],
   creditos: {
@@ -413,7 +249,30 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Mario Fernando Meneses Calvache',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Deivis Eduard Ramirez Martinez',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de gestión industrial - Regional distrito capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Distrito capital',
       },
     ],
     desarrolloProducto: [
@@ -421,43 +280,72 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Jesus Atonio Vecino Valero'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'John Andres Ayala Angarita',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      /*{
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },*/
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
