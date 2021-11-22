@@ -5,17 +5,10 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Tema3
+        span.text-white 3
+      h1 Trazabilidad
     
-    #t_3_1.titulo-segundo
-      .h2 3.1 subti
     
-    #t_3_2.titulo-segundo
-      .h2 3.2 subti
-
-    #t_3_3.titulo-segundo
-      .h2 3.3 subti
 
 </template>
 
