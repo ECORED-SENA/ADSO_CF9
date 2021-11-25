@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 2
-      h1 Instrumentos de verificación
+      h1 Instrumentos de medición y verificación
     
     .row.justify-content-center.align-items-center.gx-0.mb-4
       .col-lg-6.order-2.order-lg-1
@@ -253,7 +253,7 @@
               td(style='border-right: 1px solid #AFAFAF') 
                 b 3
               td
-                b Este proceso presenta variaciones dependiendo del hardware que se utilice
+                b Este proceso presenta variaciones dependiendo del <em>hardware</em> que se utilice
             tr
               td(style='border-right: 1px solid #AFAFAF') 
               td
@@ -275,7 +275,7 @@
         #2.row.justify-content-between.mb-4
           .col.col-lg-4.align-self-center
             .p-3.pe-lg-5(style='background: linear-gradient(to right, #4DD0E1, #039BE5);')
-              h3.mb-0.text-white Cálculo de métricas de software
+              h3.mb-0.text-white Cálculo de métricas de <em>software</em>
           .col-auto.align-self-center
             a(@click="goToElement('base')" @mouseover="mostrarIndicador = false")
               figure
@@ -283,7 +283,7 @@
               .indicador--click(v-if="mostrarIndicador")
 
 
-    p.mb-5 La ingeniería del software tiene como objetivo producir un sistema de óptima calidad.  Para lograr este objetivo, se debe usar métodos efectivos junto con herramientas y aplicaciones actuales. Al mismo tiempo, un buen desarrollador debe medir si la calidad se va a cumplir en todo aspecto.
+    p.mb-5 La ingeniería del <em>software</em> tiene como objetivo producir un sistema de óptima calidad.  Para lograr este objetivo, se debe usar métodos efectivos junto con herramientas y aplicaciones actuales. Al mismo tiempo, un buen desarrollador debe medir si la calidad se va a cumplir en todo aspecto.
 
 
     .row.justify-content-center.align-items-center.gx-0.mb-5
@@ -308,7 +308,7 @@
     .row.justify-content-center.align-items-center.fondo2.mb-5
       .col-lg-12.px-md-5
         .row.justify-content-center.align-items-center.mb-5.pt-5
-          p.mb-0 (Pereira y otros, 2012). Refiere que la calidad de una solución de software o aplicación es tan buena como los requisitos que la detallan y las mediciones que evalúan los siguientes aspectos.
+          p.mb-0 (Pereira y otros, 2012). Refiere que la calidad de una solución de <em>software</em> o aplicación es tan buena como los requisitos que la detallan y las mediciones que evalúan los siguientes aspectos.
           
         .row.justify-content-center.align-items-center
           .col-auto.mb-4
@@ -360,7 +360,7 @@
       .col-lg-8
         p.mb-4 Para obtener estas métricas de calidad, el desarrollador debe usar medidas técnicas, que evalúan la calidad con objetividad, y los errores y defectos. 
         .cajon.color-acento-contenido.p-4
-          p.mb-0 El mismo autor afirma que las métricas que provienen de estas medidas proporcionan una indicación de la efectividad de las actividades de control, de calidad, errores detectados, arrojando una visión profunda de la eficacia de cada una de las actividades evaluadas en la métrica. A continuación, se presenta los factores y categorización de los factores en el desarrollo de software:
+          p.mb-0 El mismo autor afirma que las métricas que provienen de estas medidas proporcionan una indicación de la efectividad de las actividades de control, de calidad, errores detectados, arrojando una visión profunda de la eficacia de cada una de las actividades evaluadas en la métrica. A continuación, se presenta los factores y categorización de los factores en el desarrollo de <em>software</em>:
 
 
     TabsC.color-acento-contenido.mb-5
@@ -431,13 +431,13 @@
           table
             caption Nota. McCall
             thead
-              th.text-white.p-3(colspan="16", style="background-color: #12263F" ) 
-                h3.mb-0 MÉTRICA DE CALIDAD DEL SOFTWARE
+              th.text-white.p-3(colspan="17", style="background-color: #12263F" ) 
+                h3.mb-0 MÉTRICA DE CALIDAD DEL <em>SOFTWARE</em>
         
             tbody
               
               tr(style='background-color: #4DD0E1; color:#fff;')
-                td(colspan='5') 
+                td.text-center(colspan='6') 
                   b FACTOR DE CALIDAD
                 td.verticalText
                   b Corrección
@@ -462,6 +462,8 @@
                 td.verticalText
                   b Usabilidad
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 1
                 td(colspan='5') Facilidad de auditor&iacute;a:  
                 td
                 td
@@ -475,6 +477,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 2
                 td(colspan='5') Exactitud:  
                 td  
                 td  
@@ -488,6 +492,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 3
                 td(colspan='5') Estandarizaci&oacute;n de comunicaciones:  
                 td  
                 td  
@@ -501,6 +507,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 4
                 td(colspan='5') Complexi&oacute;n:  
                 td  
                 td  
@@ -514,6 +522,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 5
                 td(colspan='5') Concisi&oacute;n:  
                 td  
                 td  
@@ -527,6 +537,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 6
                 td(colspan='5') Consistencia:  
                 td  
                 td  
@@ -540,6 +552,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 7
                 td(colspan='5') Estandarizaci&oacute;n de datos.
                 td  
                 td  
@@ -553,6 +567,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 8
                 td(colspan='5') Tolerancia al error:  
                 td  
                 td  
@@ -566,6 +582,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 9
                 td(colspan='5') Eficiencia de ejecuci&oacute;n:  
                 td  
                 td  
@@ -579,6 +597,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 10
                 td(colspan='5') Capacidad de expansi&oacute;n.  
                 td  
                 td  
@@ -592,6 +612,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 11
                 td(colspan='5') Generalidad:   
                 td  
                 td  
@@ -605,7 +627,9 @@
                 td  
                 td  
               tr.tr-bgcolor
-                td(colspan='5') Independencia del hardware:  
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 12
+                td(colspan='5') Independencia del <em>hardware</em>:  
                 td  
                 td  
                 td  
@@ -618,6 +642,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 13
                 td(colspan='5') Instrumentaci&oacute;n:  
                 td  
                 td  
@@ -631,6 +657,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 14
                 td(colspan='5') Modularidad 
                 td  
                 td  
@@ -644,6 +672,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 15
                 td(colspan='5') Operatividad 
                 td  
                 td  
@@ -657,6 +687,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 16
                 td(colspan='5') Autodocumentaci&oacute;n    
                 td  
                 td  
@@ -670,6 +702,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 17
                 td(colspan='5') Simplicidad   
                 td  
                 td  
@@ -683,6 +717,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 18
                 td(colspan='5') Independencia del sistema  
                 td  
                 td  
@@ -696,6 +732,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 19
                 td(colspan='5') Trazabilidad
                 td  
                 td  
@@ -709,6 +747,8 @@
                 td  
                 td  
               tr.tr-bgcolor
+                td.text-center(style='background-color: #12263F; color: #fff;') 
+                  b 20
                 td(colspan='5') Facilidad de formaci&oacute;n
                 td  
                 td  

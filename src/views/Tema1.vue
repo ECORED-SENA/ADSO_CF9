@@ -31,7 +31,7 @@
           
         .row.justify-content-center.mb-5
           .cajon.color-acento-contenido.p-4.mb-lg-4
-            p.mb-0 Es importante tener en cuenta la información obtenida y como punto de partida el informe de requisitos de software para generar una óptima validación de documentos.
+            p.mb-0 Es importante tener en cuenta la información obtenida y como punto de partida el informe de requisitos de <em>software</em> para generar una óptima validación de documentos.
           
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0.p-lg-4
@@ -75,7 +75,7 @@
                       ul.lista-ul
                         li 
                           i.fas.fa-layer-group(style='color: #039BE5')
-                          | Observación directa.
+                          | Observación indirecta.
                   p.mb-0 Cuando el investigador toma directamente los datos de la población, sin necesidad de cuestionarios, entrevistadores. Por ejemplo, cuando un profesor realiza un estudio sobre el avance de sus estudiantes en una materia.
                     
               .row.justify-content-center.align-items-center
@@ -154,7 +154,7 @@
             .crd.crd--topLine.crd--topLine_green.m-1
               img(src="@/assets/curso/tema1/icon4.svg", alt="alt", style="width: 85px;").m-auto.mb-2
               h4.text-center Objetivo
-              p.text-center Cuál es el objetivo de este documento. NOTA: En las Conclusiones: debemos argumentar como hemos cubierto nuestros objetivos.
+              p.text-center Cuál es el objetivo de este documento. NOTA: en las Conclusiones: debemos argumentar como hemos cubierto nuestros objetivos.
               
             .crd.crd--topLine.m-1
               img(src="@/assets/curso/tema1/icon5.svg", alt="alt", style="width: 85px;").m-auto.mb-2
@@ -237,7 +237,7 @@
                       p.mb-0 Debe ser reflexiva sobre el tema tratado.
                     li 
                       i.fas.fa-layer-group(style='color: #039BE5')
-                      p.mb-0 Debe expresar de manera clara los resultados obtenidos en la investigación
+                      p.mb-0 Debe expresar de manera clara los resultados obtenidos en la investigación.
                     li 
                       i.fas.fa-layer-group(style='color: #039BE5')
                       p.mb-0 Se debe utilizar un lenguaje formal.
@@ -264,7 +264,7 @@
                 img(src="@/assets/curso/tema1/img11.svg", alt="imagen ambiental", style="width: 370px;").m-auto
             .col-lg-7
               p.mb-4 El mismo autor afirma que la metodología de investigación tecnológica nos brinda las pautas para resolver problemas de la realidad y tiene base empírica porque aplica los conocimientos teóricos de la ciencia a la práctica, adoptando el método experimental en la solución de los problemas en forma sistémica.
-              p.mb-4 El tipo de investigación es tecnológico porque busca resolver un problema práctico para satisfacer las necesidades de una solución de software. 
+              p.mb-4 El tipo de investigación es tecnológico porque busca resolver un problema práctico para satisfacer las necesidades de una solución de <em>software</em>. 
               .cajon.color-acento-botones.p-4.mb-3
                 p.mb-0 Hipótesis, según Pájaro (2002): se tienen dos grandes vías a partir de las cuales se descubren hipótesis y por lo tanto se formulan o redactan: 
               .row.justify-content-center
@@ -272,7 +272,7 @@
                   ul.lista-ul.mb-0
                     li 
                       i.fas.fa-layer-group(style='color: #039BE5')
-                      p.mb-0 A partir de la razón (razonando)
+                      p.mb-0 A partir de la razón (razonando).
                     li 
                       i.fas.fa-layer-group(style='color: #039BE5')
                       p.mb-0 A partir de la experiencia, usando la inducción.

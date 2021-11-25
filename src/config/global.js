@@ -30,7 +30,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Instrumentos de verificación',
+        titulo: 'Instrumentos de medición y verificación',
         desarrolloContenidos: true,
       },
       {
