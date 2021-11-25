@@ -36,13 +36,15 @@
         p.mb-5 Existen varios instrumentos de verificación como son:
         .row.justify-content-evenly.mb-0
           .col-auto
-            a(href="#1")
+            a.indicador__container(@click="goToElement('1')" @mouseover="mostrarIndicador = false")
               figure.mb-4.mb-lg-0(data-aos="zoom-in") 
                 img(src='@/assets/curso/tema2/link1.svg', style='width:340px;')          
+              .indicador--click(v-if="mostrarIndicador")
           .col-auto
-            a(href="#2")
+            a.indicador__container(@click="goToElement('2')" @mouseover="mostrarIndicador = false")
               figure.mb-4.mb-lg-0(data-aos="zoom-in") 
                 img(src='@/assets/curso/tema2/link2.svg', style='width:340px;') 
+              .indicador--click(v-if="mostrarIndicador")
 
     .row.justify-content-center.mb-4
       .col-12.col-md-12
@@ -51,9 +53,10 @@
             .p-3.pe-lg-5(style='background: linear-gradient(to right, #4DD0E1, #039BE5);')
               h3.mb-0.text-white Lista de chequeo
           .col-auto.align-self-center
-            a(href="#base")
+            a(@click="goToElement('base')" @mouseover="mostrarIndicador = false")
               figure
                 img.mx-auto(src='@/assets/curso/tema2/up.svg' alt='Imagen relacionada' style='width:65px')
+              .indicador--click(v-if="mostrarIndicador")
 
     p.mb-4 En la siguiente video clase presentamos aspectos a tener en cuenta para la elaboración de una lista de chequeo:
     
@@ -274,9 +277,10 @@
             .p-3.pe-lg-5(style='background: linear-gradient(to right, #4DD0E1, #039BE5);')
               h3.mb-0.text-white Cálculo de métricas de software
           .col-auto.align-self-center
-            a(href="#base")
+            a(@click="goToElement('base')" @mouseover="mostrarIndicador = false")
               figure
                 img.mx-auto(src='@/assets/curso/tema2/up.svg' alt='Imagen relacionada' style='width:65px')
+              .indicador--click(v-if="mostrarIndicador")
 
 
     p.mb-5 La ingeniería del software tiene como objetivo producir un sistema de óptima calidad.  Para lograr este objetivo, se debe usar métodos efectivos junto con herramientas y aplicaciones actuales. Al mismo tiempo, un buen desarrollador debe medir si la calidad se va a cumplir en todo aspecto.
@@ -738,6 +742,12 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    goToElement(id) {
+      const ele = document.getElementById(id)
+      window.scrollTo(ele.offsetLeft, ele.offsetTop + 100)
+    },
   },
 }
 </script>
