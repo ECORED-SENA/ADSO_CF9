@@ -3,6 +3,10 @@
   padding: 2rem
   background-color: #F6F6F6
 
+.bg--white
+  padding: 2rem
+  background-color: #FFF
+
 .neg--left
   margin-left: -7.5rem
   @media (max-width: 992px)  
@@ -22,6 +26,16 @@
 .fondo2
   background: url('../assets/curso/tema2/fondo1.svg')
   background-position: top
+  background-size: auto
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+
+.fondo3
+  background: url('../assets/curso/tema3/fondo3.png')
+  background-position: center
   background-size: auto
   background-repeat: no-repeat
   margin-inline: -3.4rem
@@ -140,3 +154,51 @@
 
 .tabs-c__header 
   margin-bottom: 0
+
+.verticalText 
+  writing-mode: vertical-lr
+  transform: rotate(180deg)
+  
+.tabla-a.color-secundario thead 
+  border: 0
+
+
+.tr-bgcolor
+  background-color: #f6f6f6
+
+.tr-bgcolor:nth-child(2n+1)
+  background-color: #e8e8e8
+
+.tr-bgcolor td
+  border: 1px solid #AFAFAF
+
+.tr-bgcolor2
+  background-color: #f6f6f6
+
+.tr-bgcolor2:nth-child(2n+1)
+  background-color: #fff
+
+.tr-bgcolor2 td
+  border: 1px solid #AFAFAF
+
+.fondo-color
+  background-color: #f6f6f6
+  margin-inline: -3.4rem
+  @media (max-width: 992px)
+    margin-inline: -1.4rem
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  font-size: 22px
+
+.linea-tiempo-d__item--selected .tarjeta--gris
+  background-color: #C9F1F6
+
+.linea-tiempo-d__item__dots:after
+  border-left: 5px dotted #e8e8e8
+
+.bg-lineBottom
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  background-image: url(../assets/curso/tema3/line-bottom.svg)
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: bottom

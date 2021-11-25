@@ -414,8 +414,311 @@
             
         
 
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          span Tabla de métricas de <em>software McCall</em>
+          
+        //.tabla-b.color-secundario.mb-5
+          .tabla-b__header
+            h5.mb-0 MÉTRICA DE CALIDAD DEL SOFTWARE
+          table
+        .tabla-a.color-secundario.mb-5 
+          table
+            caption Nota. McCall
+            thead
+              th.text-white.p-3(colspan="16", style="background-color: #12263F" ) 
+                h3.mb-0 MÉTRICA DE CALIDAD DEL SOFTWARE
+        
+            tbody
+              
+              tr(style='background-color: #4DD0E1; color:#fff;')
+                td(colspan='5') 
+                  b FACTOR DE CALIDAD
+                td.verticalText
+                  b Corrección
+                td.verticalText
+                  b Fiabilidad
+                td.verticalText
+                  b Eficiencia
+                td.verticalText
+                  b Integridad
+                td.verticalText
+                  b Mantenimiento
+                td.verticalText
+                  b Flexibilidad
+                td.verticalText
+                  b Capacidad de pruebas
+                td.verticalText
+                  b Portabilidad
+                td.verticalText
+                  b Reusabilidad
+                td.verticalText
+                  b  Interoperabilidad
+                td.verticalText
+                  b Usabilidad
+              tr.tr-bgcolor
+                td(colspan='5') Facilidad de auditor&iacute;a:  
+                td
+                td
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Exactitud:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Estandarizaci&oacute;n de comunicaciones:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Complexi&oacute;n:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Concisi&oacute;n:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Consistencia:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Estandarizaci&oacute;n de datos.
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Tolerancia al error:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Eficiencia de ejecuci&oacute;n:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Capacidad de expansi&oacute;n.  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Generalidad:   
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Independencia del hardware:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Instrumentaci&oacute;n:  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Modularidad 
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Operatividad 
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Autodocumentaci&oacute;n    
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Simplicidad   
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Independencia del sistema  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Trazabilidad
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+              tr.tr-bgcolor
+                td(colspan='5') Facilidad de formaci&oacute;n
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
+                td  
 
-
+    p En el apartado del glosario se hace referencia al concepto de cada uno de los términos tratados en la tabla No 3. de métricas McCall.
 
 
 
