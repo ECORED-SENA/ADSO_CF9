@@ -75,7 +75,7 @@
                       ul.lista-ul
                         li 
                           i.fas.fa-layer-group(style='color: #039BE5')
-                          | Observación indirecta.
+                          | Observación directa.
                   p.mb-0 Cuando el investigador toma directamente los datos de la población, sin necesidad de cuestionarios, entrevistadores. Por ejemplo, cuando un profesor realiza un estudio sobre el avance de sus estudiantes en una materia.
                     
               .row.justify-content-center.align-items-center
@@ -86,7 +86,7 @@
                       ul.lista-ul
                         li 
                           i.fas.fa-layer-group(style='color: #039BE5')
-                          | Observación directa.
+                          | Observación indirecta.
                   p.mb-0 Cuando los datos no son obtenidos directamente, sino por medio de un cuestionario, lista de chequeo u otra fuente.
               
                 .col-10.col-md-5
