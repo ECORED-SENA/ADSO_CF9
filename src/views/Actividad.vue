@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar el término con la definición que corresponde
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD1/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
@@ -35,7 +35,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Responder verdadero o falso a los siguientes enunciados
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD2/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
